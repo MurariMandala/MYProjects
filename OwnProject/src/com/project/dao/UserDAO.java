@@ -3,7 +3,7 @@ package com.project.dao;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.entities.java.UserDetails;
+import com.project.entities.UserDetails;
 
 public interface UserDAO {
     

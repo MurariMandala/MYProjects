@@ -1,4 +1,4 @@
-package com.entities.java;
+package com.project.entities;
 
 public class UserDetails {
  private int userId ;

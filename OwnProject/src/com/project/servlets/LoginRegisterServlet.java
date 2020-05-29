@@ -9,7 +9,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.entities.java.UserDetails;
+import com.project.entities.UserDetails;
+
 import com.project.daoimpl.UserDetailsDAOImpl;
 
 /**

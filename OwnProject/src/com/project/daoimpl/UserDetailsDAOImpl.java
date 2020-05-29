@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import com.dbconnection.MyConnectionProvider;
-import com.entities.java.UserDetails;
+import com.project.entities.UserDetails;
 import com.project.dao.UserDAO;
 
 //author - Murari.Mandala
