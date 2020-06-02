@@ -9,18 +9,24 @@
 </head>
 <body>
 <form action="login" method="post">
-<tr><td>${message}</td></tr>
- <tr><td>${sucessMessage}</td></tr>
-		
+
+
+<h3 style="color: #D8000C;">${message}</h3>
+<h3 style="color: #4F8A10;">${sucessMessage}</h3>
 <div class="login-wrap">
-	<div class="login-html">
+	
+	<div class="login-html">    
+	
+		
+	
+	
 		<input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Sign In</label>
 		<input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Sign Up</label>
 		<div class="login-form">
 		
 			<div class="sign-in-htm">
-				<div class="group">
-					<label for="user" class="label">Username</label>
+				<div class="group"><br>
+					<label for="user" class="label" style="font-size:80%;">Username</label>
 					<input name="username" id="username" type="text" class="input">
 				</div>
 				<div class="group">
@@ -64,10 +70,11 @@
 				<div class="group">
 					<input type="submit" class="button" name="submit" value="register">
 				</div>
-				<div class="hr"></div>
 				<div class="foot-lnk">
 					<label for="tab-1">Already Member?</a>
 				</div>
+				<div class="hr"></div>
+				
 			</div>
 		</div>
 	</div>
